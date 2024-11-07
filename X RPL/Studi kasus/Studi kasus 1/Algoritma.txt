@@ -1,0 +1,22 @@
+repann
+read (bil1,bil2,bil3)
+max,min
+
+if b1 > b2 then
+	max=b1
+	min=b2
+      else
+	max=b2
+	min=b1
+      endif
+
+	if b3>max then 
+
+	max=b3
+	endif
+
+	if b3<min then
+	min=b3
+	endif
+
+	print(max,min)

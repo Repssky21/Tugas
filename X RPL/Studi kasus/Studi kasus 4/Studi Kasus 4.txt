@@ -1,0 +1,16 @@
+PSEUDOCODE Studi kasus 4
+nama:Rius Revanda Maulana Akbar
+Kelas:X PPLG
+
+total
+if total >=100.000 AND total <=300.000 then
+	print (selamat mendapkat diskon 10%)
+	total = total - (total*0.1)
+else if total >=300.000 AND total <=500.000 then
+	print (selamat mendapat diskon 20%)
+	total = total - (total*0.2)
+else if total > 500.000 then
+	print (selamat mendapat diskon 25%)
+	total = total - (total*0.25)
+endif
+print (total)
